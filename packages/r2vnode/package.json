@@ -1,6 +1,7 @@
 {
   "name": "r2vnode",
   "packageManager": "yarn@4.0.2",
+  "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/logotip4ik/r2vnode",
+    "url": "git+https://github.com/logotip4ik/r2vnode.git",
     "directory": "packages/r2vnode"
   },
   "engines": {
@@ -23,6 +24,9 @@
     "import": "./dist/index.mjs",
     "require": "./dist/index.cjs"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "pkgroll"
   },
