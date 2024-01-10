@@ -1,9 +1,13 @@
 {
   "private": true,
+  "scripts": {
+    "start": "tsx src/index.tsx"
+  },
   "dependencies": {
     "@types/node": "^20.10.8",
     "r2vnode": "workspace:^",
     "satori": "^0.10.11",
+    "tsx": "^4.7.0",
     "vue": "^3.4.7"
   }
 }
