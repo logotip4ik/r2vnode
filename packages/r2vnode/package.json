@@ -14,14 +14,14 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "build": "pkgroll --src=src/main.ts"
+    "build": "pkgroll"
   },
   "peerDependencies": {
     "@vue/runtime-core": "3.*",
     "@vue/shared": "3.*",
     "scule": "1.*"
   },
-  "devDependencies": {
+  "dependencies": {
     "@vue/server-renderer": "^3.4.7",
     "pkgroll": "^2.0.1",
     "satori": "^0.10.11",
