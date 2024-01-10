@@ -96,7 +96,7 @@ export function toRNode(node: VNode | SimpleValue | null | undefined | void): RN
   return rnode;
 }
 
-export function satoriVue(node: VNode): RNode {
+export function vue(node: VNode): RNode {
   const children = toRNode(node)
 
   return {

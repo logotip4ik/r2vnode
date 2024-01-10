@@ -2,7 +2,7 @@ import { expect, describe, it } from 'vitest';
 import { h } from '@vue/runtime-core'
 import { renderToString } from '@vue/server-renderer';
 import { html as htmlToSatori } from 'satori-html';
-import { satoriVue } from '../src/main';
+import { vue as vueToSatori } from '../src/index';
 
 describe('transform to match satori-html node output', () => {
   it('should transform basic nodes', async () => {
@@ -10,7 +10,7 @@ describe('transform to match satori-html node output', () => {
     const html = await renderToString(node)
 
     const satoriNode = htmlToSatori(html) 
-    const vnodeFromVue = satoriVue(node);
+    const vnodeFromVue = vueToSatori(node);
 
     expect(vnodeFromVue).toMatchObject(
       expect.objectContaining(satoriNode)
@@ -22,7 +22,7 @@ describe('transform to match satori-html node output', () => {
     const html = await renderToString(node);
 
     const satoriNode = htmlToSatori(html)
-    const vnodeFromVue = satoriVue(node);
+    const vnodeFromVue = vueToSatori(node);
 
     expect(vnodeFromVue).toMatchObject(
       expect.objectContaining(satoriNode)
@@ -37,7 +37,7 @@ describe('transform to match satori-html node output', () => {
     const html = await renderToString(node);
 
     const satoriNode = htmlToSatori(html);
-    const vnodeFromVue = satoriVue(node);
+    const vnodeFromVue = vueToSatori(node);
 
     expect(vnodeFromVue).toMatchObject(
       expect.objectContaining(satoriNode)
@@ -49,7 +49,7 @@ describe('transform to match satori-html node output', () => {
     const html = await renderToString(node);
 
     const satoriNode = htmlToSatori(html);
-    const vnodeFromVue = satoriVue(node);
+    const vnodeFromVue = vueToSatori(node);
 
     expect(vnodeFromVue).toMatchObject(
       expect.objectContaining(satoriNode)
@@ -61,7 +61,7 @@ describe('transform to match satori-html node output', () => {
     const html = await renderToString(node);
 
     const satoriNode = htmlToSatori(html);
-    const vnodeFromVue = satoriVue(node);
+    const vnodeFromVue = vueToSatori(node);
 
     expect(vnodeFromVue).toMatchObject(
       expect.objectContaining(satoriNode)
