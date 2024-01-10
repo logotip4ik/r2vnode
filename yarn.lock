@@ -2091,6 +2091,7 @@ __metadata:
   dependencies:
     r2vnode: "workspace:^"
     satori: "npm:^0.10.11"
+    vue: "npm:^3.4.7"
   languageName: unknown
   linkType: soft
 

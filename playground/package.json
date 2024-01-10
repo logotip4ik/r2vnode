@@ -2,6 +2,7 @@
   "private": true,
   "dependencies": {
     "r2vnode": "workspace:^",
-    "satori": "^0.10.11"
+    "satori": "^0.10.11",
+    "vue": "^3.4.7"
   }
 }
