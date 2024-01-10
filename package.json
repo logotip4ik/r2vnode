@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "license": "MIT",
+  "packageManager": "yarn@4.0.2",
+  "workspaces": [
+    "packages/*"
+  ]
+}
