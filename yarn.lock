@@ -2139,6 +2139,7 @@ __metadata:
     pkgroll: "npm:^2.0.1"
     satori: "npm:^0.10.11"
     satori-html: "npm:^0.3.2"
+    scule: "npm:^1.2.0"
     vitest: "npm:^1.1.3"
     vue: "npm:^3.4.7"
   peerDependencies:
@@ -2293,6 +2294,13 @@ __metadata:
     postcss-value-parser: "npm:^4.2.0"
     yoga-wasm-web: "npm:^0.3.3"
   checksum: dcadd23fb330033fb55a41d5a69d9c5c32b4ec36bf9ba26d2d2e64852f74c4a4e0efffe9dc94071cef66135a743f00cfd6eb699fd327b193a96fea34e3ba8726
+  languageName: node
+  linkType: hard
+
+"scule@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "scule@npm:1.2.0"
+  checksum: 4cbf1e9dd2f6472aba926d63333191cf79b56725c33cd0531f80cee6d10a545f7eec54bbedc2877ff83adaf4eedd258dc3f02d926e809ed6c39c8a131f1a61e0
   languageName: node
   linkType: hard
 
