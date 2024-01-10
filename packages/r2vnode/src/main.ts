@@ -82,10 +82,12 @@ export function toRNode(node: VNode | SimpleValue | null | undefined | void): RN
         .reduce((acc, str) => {
           const [key, value] = str.split(':') 
 
-          acc[camelCase(key.trim())] = value.trim();
+          if (key && value) {
+            acc[camelCase(key.trim())] = value.trim();
+          }
 
           return acc
-        }, {});
+        }, {} as Record<string, string>);
     } else if (typeof normalizedStyles === 'object'){
       rnode.props.style = normalizedStyles;
     }
