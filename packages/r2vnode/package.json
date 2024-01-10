@@ -1,7 +1,8 @@
 {
   "name": "r2vnode",
   "packageManager": "yarn@4.0.2",
-  "main": "dist/index.cjs",
+  "type": "module",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "engines": {
@@ -13,7 +14,7 @@
     "require": "./dist/index.cjs"
   },
   "scripts": {
-    "build": "pkgroll"
+    "build": "pkgroll --src=src/main.ts"
   },
   "peerDependencies": {
     "@vue/runtime-core": "3.*",
