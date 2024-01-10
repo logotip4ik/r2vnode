@@ -5,6 +5,16 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "author": {
+    "name": "Bogdan Kostyuk",
+    "url": "https://bogdankostyuk.xyz",
+    "email": "contact@bogdankostyuk.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logotip4ik/r2vnode",
+    "directory": "packages/r2vnode"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
