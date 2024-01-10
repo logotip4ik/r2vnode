@@ -11,20 +11,20 @@ Transforms Vue VNode to simple React VNode. This gives us ability to generate sv
     ```
 
 2. Write jsx and transform with `vue` function
-```tsx
-import satroi from 'satori'
-import { vue } from 'r2vnode'
-
-const message = 'Hello from Vue!'
-
-const svg = await satori(
-    vue(
-        <section>
-            <h1>{message}</h1>
-
-            <p>something like this !</p>
-        </section>
-    ),
-    satoriOptions
-)
-```
+    ```tsx
+    import satroi from 'satori'
+    import { vue } from 'r2vnode'
+    
+    const message = 'Hello from Vue!'
+    
+    const svg = await satori(
+        vue(
+            <section>
+                <h1>{message}</h1>
+    
+                <p>something like this !</p>
+            </section>
+        ),
+        satoriOptions
+    )
+    ```
