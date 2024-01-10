@@ -2085,6 +2085,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"playground-2e82a5@workspace:playground":
+  version: 0.0.0-use.local
+  resolution: "playground-2e82a5@workspace:playground"
+  dependencies:
+    r2vnode: "workspace:^"
+    satori: "npm:^0.10.11"
+  languageName: unknown
+  linkType: soft
+
 "postcss-value-parser@npm:^4.0.2, postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -2131,7 +2140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"r2vnode@workspace:packages/r2vnode":
+"r2vnode@workspace:^, r2vnode@workspace:packages/r2vnode":
   version: 0.0.0-use.local
   resolution: "r2vnode@workspace:packages/r2vnode"
   dependencies:

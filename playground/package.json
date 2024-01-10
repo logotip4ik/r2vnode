@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "r2vnode": "workspace:^",
+    "satori": "^0.10.11"
+  }
+}
